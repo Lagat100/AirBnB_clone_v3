@@ -2,6 +2,9 @@
 """Test BaseModel for expected behavior and documentation"""
 from datetime import datetime
 import inspect
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 import pep8 as pycodestyle
 import time

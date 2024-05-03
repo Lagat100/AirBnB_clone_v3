@@ -5,6 +5,9 @@ Contains the TestCityDocs classes
 
 from datetime import datetime
 import inspect
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import models
 from models import city
 from models.base_model import BaseModel
